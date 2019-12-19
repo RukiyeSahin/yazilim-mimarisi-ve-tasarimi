@@ -9,7 +9,7 @@ Observer adı üzerinde gözlemci, izleyici, gözcü yahut gözetmen diye nitele
 
 İşte bu örnek olay tam tamına Observer tasarım desenine uygun bir örnektir. 
 
-Observer Design Pattern’de kullanılacağımız terimler:
+Observer Design Pattern’de kullanılacağımız terimlerden bahsedersek:
 
 Subject:
 
