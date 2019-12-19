@@ -22,9 +22,7 @@ Concrete:
 Subject’i takip eden nesnelerdir. Yukarıdaki örnek olayımızda; Anne, Baba ve Öğretmen nesneleri Concrete nesneleridir
 
 
-
-
-![](https://www.gencayyildiz.com/blog/wp-content/uploads/2016/04/C-Observer-Design-PatternObserver-Tasar%C4%B1m-Deseni.png)
+![](https://github.com/RukiyeSahin/yazilim-mimarisi-ve-tasarimi/blob/master/Observer.png)
 
 Diyagramda gördüğünüz gibi Subject(Hedef) olarak belirtilen nesnemize Observer’lar(Gözlemciler) subscribe yani abone olmuşlardır. Subject nesnemiz içerisinde herhangi bir “y” özelliği güncellendiğinde Notify metodu tetiklenecek ve bu metod Subject’e abone olan tüm Observer’ların Update metodunu çalıştıracaktır. Şimdi bu olayın kod kısmına geçersek.
 
