@@ -1,5 +1,7 @@
-# yazilim-mimarisi-ve-tasarimi
-Observer Design Pattern
+# Yazılım Mimarisi ve Tasarımı
+
+
+# Observer Design Pattern
 
 Observer adı üzerinde gözlemci, izleyici, gözcü yahut gözetmen diye nitelendirilen, anlamı gibi işlev gören bir tasarım desenidir. Observer ile mevcut nesnenin durumunda herhangi bir değişiklik olduğunda, bu değişiklerden diğer nesneleri haberdar eden bir tasarımdan bahsediyoruz. Dahada net bir şekilde bahsetmek gerekirse, elimizdeki “x” nesnesinin “y” özelliğinde bir güncellenme, değişiklik yahut belirli bir şartın gerçekleşmesi gibi bir durum da  bu “x” nesnesini -izleyen- -gözleyen- diğer “z”, “w”, “k” vs. nesnelerine bu yeni durumu bildiren sisteme Observer tasarım deseni diyoruz. Örneğin bir alışveriş sitesinde bir ürüne indirim yapıldığında kullanıcılarınıza e-mail ile haber verilir iken bu kalıp kullanılabilir. Ya da en basitinden facebook da bir gruba üyesiniz grupta bildirimleri açtığınızda size (ve daha birçok kişiye) gelecek olan bildirim bu yapı ile olabilir.
 
@@ -7,7 +9,7 @@ Observer adı üzerinde gözlemci, izleyici, gözcü yahut gözetmen diye nitele
 
 İşte bu örnek olay tam tamına Observer tasarım desenine uygun bir örnektir. 
 
-Observer Design Pattern’de
+Observer Design Pattern’de kullanılacağımız terimler:
 
 Subject:
 
