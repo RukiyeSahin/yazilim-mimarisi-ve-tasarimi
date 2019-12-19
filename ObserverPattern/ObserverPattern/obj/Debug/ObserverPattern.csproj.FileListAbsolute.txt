@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\ObserverPattern\ObserverPattern\bin\Debug\ObserverPattern.exe.config
+C:\Users\User\source\repos\ObserverPattern\ObserverPattern\bin\Debug\ObserverPattern.exe
+C:\Users\User\source\repos\ObserverPattern\ObserverPattern\bin\Debug\ObserverPattern.pdb
+C:\Users\User\source\repos\ObserverPattern\ObserverPattern\obj\Debug\ObserverPattern.csprojAssemblyReference.cache
+C:\Users\User\source\repos\ObserverPattern\ObserverPattern\obj\Debug\ObserverPattern.exe
+C:\Users\User\source\repos\ObserverPattern\ObserverPattern\obj\Debug\ObserverPattern.pdb
