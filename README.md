@@ -30,7 +30,7 @@ Diyagramda gördüğünüz gibi Subject(Hedef) olarak belirtilen nesnemize Obser
 
 Öncelikle Subject’imize(yani hedefimize) bir çok tipin abone olabilmesini sağlayacak Observer arayüzünü geliştirelim.
 
-```sh
+```c#
 abstract public class Observer
 { 
   public override void Update(); 
@@ -41,7 +41,7 @@ Observer sınıfından kalıtım alan her abone sınıfa Update metodu uygulanac
 
 Şimdi Concrete nesnelerimizi başka bir deyişle takip edecek sınıflarımızı oluşturalım.
 
-```sh
+```c#
 public class BabaObserver: Observer
 { 
   public override void Update()
@@ -51,7 +51,7 @@ public class BabaObserver: Observer
  }  
 ```
 
-```sh
+```c#
 public class AnneObserver: Observer
 { 
   public override void Update()
@@ -61,7 +61,7 @@ public class AnneObserver: Observer
  }  
 ```
 
-```sh
+```c#
 public class OgretmenObserver: Observer
 { 
   public override void Update()
@@ -73,7 +73,7 @@ public class OgretmenObserver: Observer
 
 Şimdide Subject'imizi yani takip edilecek nesnemizi inşa edelim.
 
-```sh
+```c#
 public class Ogrenci
 {
   public string Adi {get; set;}
@@ -122,7 +122,7 @@ public class Ogrenci
  
  
  Ve son olarak main fonksiyonunu yazalım.
- ```sh
+ ```c#
  class Program
   {
     public static void Main(sting[] args)
